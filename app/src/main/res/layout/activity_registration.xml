@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".registration">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etNamereg"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="UserName"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etUsernamereg"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPasswordreg"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bregisteration"
+        android:text="registeration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="userReg"/>
+    <Button
+        android:id="@+id/bbacklogin"
+        android:text="back to login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="backlogin"/>
+
+
+
+
+</LinearLayout>

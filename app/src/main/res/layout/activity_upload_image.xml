@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".uploadImage">
+
+
+    <Button
+        android:id="@+id/etUploadImsages"
+        android:text="upload image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchCamera2"
+        />
+
+    <Button
+        android:id="@+id/etUploadImaeges"
+        android:text="upload image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchCamera2"
+        />
+
+    <Button
+        android:id="@+id/etUploadImages"
+        android:text="upload image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchCamera2"
+        />
+    <ImageView
+        android:id="@+id/imageViewBucky"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+</LinearLayout>
